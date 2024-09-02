@@ -1,0 +1,68 @@
+.ExcelYukle {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ececec;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ExcelYukle h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.ExcelYukle Form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ExcelYukle Label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ExcelYukle Input[type="file"] {
+    display: block;
+    width: 580px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #08a250;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.ExcelYukle Button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ExcelYukle Button:hover {
+    color: #08a250;
+    transition: color 0.3s ease;
+}
+
+.ExcelYukle Button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.ExcelYukle div {
+    margin-bottom: 6px;
+    margin-left: 2px;
+}

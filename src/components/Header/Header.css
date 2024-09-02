@@ -1,0 +1,43 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80px; /* Genişlik 100 piksel olsun */
+    height: auto;
+    padding: 5px;
+    padding-left: 80px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Liste öğelerini sağa hizalar */
+    align-items: center; /* Liste öğelerini dikey olarak ortalar */
+    margin-right: 20px; /* İstenen sağ boşluk için */
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    font-size: medium;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #08a250;
+  }
+  

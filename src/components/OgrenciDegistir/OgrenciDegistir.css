@@ -1,0 +1,86 @@
+.OgrenciDegistirContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.OgrenciDegistirContainer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.OgrenciDegistirContainer .studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.OgrenciDegistirContainer .studentTable th,
+.OgrenciDegistirContainer .studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.OgrenciDegistirContainer .studentTable th {
+    background-color: #f2f2f2;
+}
+
+.OgrenciDegistirContainer .studentTable td input {
+    width: calc(100% - 5px);
+    /* Hücrenin içerisindeki padding alanını dikkate alarak genişlik hesaplanır */
+    box-sizing: border-box;
+    /* Padding ve border alanlarını genişlik hesabına dahil etmek için */
+    height: 30px;
+    /* Inputun yüksekliğini ayarla */
+    padding: 5px;
+    /* Input içerisindeki içeriğin kenarlara olan uzaklığını artırmak için padding ekler */
+    font-size: 14px;
+    /* Metin boyutunu ayarla */
+}
+
+.editButton,
+.saveButton,
+.deleteButton {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.editButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.saveButton {
+    background-color: #0391c0;
+    color: white;
+}
+
+.deleteButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.editButton:hover {
+    background-color: #45a049;
+}
+
+.saveButton:hover {
+    background-color: #0b7ba0;
+}
+
+.deleteButton:hover {
+    background-color: #c83f3f;
+}
